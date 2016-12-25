@@ -1,0 +1,36 @@
+# Site settings
+title: My Work Diary
+description: "Work Diary"
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://10.192.151.64:4800"
+url: "http://localhost:4800"
+port: 4800
+# User settings
+username: dorisjlee
+user_title: Doris Lee
+email: dorisjunglinlee@gmail.com
+twitter_username: dorisjlee
+github_username:  dorisjlee
+gplus_username:  dorisjunglinlee
+disqus_username: dorisjunglinlee
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+highlighter: rouge
+permalink: /:title/
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: home
+    url: /
+  - title: posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

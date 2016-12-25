@@ -1,0 +1,5 @@
+_site/*.md
+_site/*.html
+_site/
+_posts/*
+*.md
